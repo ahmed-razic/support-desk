@@ -52,9 +52,9 @@ function Register() {
         email,
         password,
       };
-    }
 
-    dispatch(register(userData));
+      dispatch(register(userData));
+    }
   };
 
   if (isLoading) {
